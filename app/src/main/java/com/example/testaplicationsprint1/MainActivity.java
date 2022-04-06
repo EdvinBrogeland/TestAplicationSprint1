@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, appBarConfiguration)
                 || super.onSupportNavigateUp();
     }
-    static int edvinOtherBranch(){return 4;}
+    static int edvinOtherBranchSecondAttempt(){return 4;}
 
     static int doubleNubber(int i){
         return 2*i;
