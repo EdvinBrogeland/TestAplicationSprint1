@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
     public static int doubleInt(int i){
         return i*2;
     }
+
     @Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
