@@ -89,6 +89,10 @@ public class MainActivity extends AppCompatActivity {
 
     public static int halveInt(int i){return i/2; }
 
+    public static void a(){
+        System.out.println("Merge from branch");
+    }
+
     @Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
