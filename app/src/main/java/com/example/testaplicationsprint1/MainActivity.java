@@ -87,6 +87,8 @@ public class MainActivity extends AppCompatActivity {
         return i*2;
     }
 
+    public static int halveInt(int i){return i/2; }
+
     @Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
