@@ -105,4 +105,7 @@ public class MainActivity extends AppCompatActivity {
         return 2*i;
     }
 
+    static double martino(){
+        return 1;
+    }
 }
